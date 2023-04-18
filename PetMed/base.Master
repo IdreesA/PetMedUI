@@ -44,6 +44,17 @@
             margin-right: auto;
             margin-left: auto;
         }
+
+        .medicine-quantity {
+            width: 75px;
+        }
+
+        .order-submit {
+            width: 80px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
     </style>
 </body>
 </html>
