@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="home.aspx" />
     <Content Include="placeorder.aspx" />
+    <Content Include="updaterecord.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +95,13 @@
       <DependentUpon>placeorder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="updaterecord.aspx.cs">
+      <DependentUpon>updaterecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updaterecord.aspx.designer.cs">
+      <DependentUpon>updaterecord.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="base.Master" />

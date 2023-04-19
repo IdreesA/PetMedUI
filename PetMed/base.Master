@@ -21,13 +21,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="home.aspx">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Place Order</a>
+                      <a class="nav-link" href="placeorder.aspx">Place Order</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Update Record</a>
+                      <a class="nav-link" href="updaterecord.aspx">Update Medication Record</a>
                     </li>
                   </ul>
                 </div>
@@ -49,7 +49,7 @@
             width: 75px;
         }
 
-        .order-submit {
+        .order-submit, .update-submit {
             width: 80px;
             display: block;
             margin-right: auto;
